@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Mobile Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery Mobile CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <!-- jQuery Mobile JS -->
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <style>
+    .content-area {
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Page -->
+  <div data-role="page" id="home">
+    <div data-role="header">
+      <h1>Welcome</h1>
+    </div>
+
+    <div data-role="content" class="content-area">
+      <h2>This is a jQuery Mobile Website</h2>
+      <a href="#about" class="ui-btn ui-corner-all ui-shadow ui-btn-b">Go to About Page</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>© 2025 Mobile WebApp</h4>
+    </div>
+  </div>
+
+  <!-- About Page -->
+  <div data-role="page" id="about">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>About</h1>
+    </div>
+
+    <div data-role="content" class="content-area">
+      <p>This website is built using jQuery Mobile, designed to be mobile-first and responsive.</p>
+    </div>
+
+    <div data-role="footer">
+      <h4>Back to Home</h4>
+    </div>
+  </div>
+
+</body>
+</html>
